@@ -15,31 +15,35 @@ A command-line question answering system built with LangChain and RAG (Retrieval
 - OpenAI API key (for GPT models)
 
 ### Installation
-- Navigate to your projects directory (desired dir)
+- **Navigate to your projects directory (desired dir)**
 ```bash
 cd qa-assistant
 ``` 
-- Clone repository
+- **Clone repository**
 ```bash
 git clone https://github.com/BarbareJ/qa-assistant.git
 ```
 
-- Create virtual environment
+- **Create virtual environment**
 ```bash
 python -m venv venv
 ```
-- Activate virtual environment
+- **Activate virtual environment**
+- Linux/Mac
 ```bash
-source venv/bin/activate  # Linux/Mac
-.\venv\Scripts\activate  # Windows
+source venv/bin/activate
+```
+- Windows
+```bash
+.\venv\Scripts\activate
 ```
 
-- Install dependencies
+- **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-- Set up environment variables
+- **Set up environment variables**
 ```bash
 echo 'OPENAI_API_KEY="your-api-key"' > .env
 ```
